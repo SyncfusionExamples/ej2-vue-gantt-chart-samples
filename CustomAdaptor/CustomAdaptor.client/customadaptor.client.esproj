@@ -1,0 +1,11 @@
+
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/1.0.2752196">
+  <PropertyGroup>
+    <StartupCommand>npm start</StartupCommand>
+    <JavaScriptTestFramework>None</JavaScriptTestFramework>
+    <!-- ✅ Do not run build automatically -->
+    <ShouldRunBuildScript>false</ShouldRunBuildScript>
+    <!-- ✅ Output folder (optional, for future use) -->
+    <BuildOutputFolder>$(MSBuildProjectDirectory)\dist</BuildOutputFolder>
+  </PropertyGroup>
+</Project>

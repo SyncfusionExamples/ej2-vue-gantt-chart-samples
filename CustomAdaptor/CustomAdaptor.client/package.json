@@ -1,0 +1,17 @@
+{
+  "name": "odatav4adaptor.client",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "vue": "^3.4.0",
+    "@syncfusion/ej2-vue-gantt": "*",
+    "@syncfusion/ej2-data": "*"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.0"
+  }
+}
